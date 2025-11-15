@@ -22,6 +22,27 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop',
     link: '#'
   },
+  {
+    title: 'Mobile Fitness App',
+    description: 'Progress tracking, workout plans, and social challenges.',
+    tags: ['React Native', 'Expo', 'Firebase'],
+    image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1600&auto=format&fit=crop',
+    link: '#'
+  },
+  {
+    title: 'Developer Blog',
+    description: 'MDX-powered blog with dark mode and full-text search.',
+    tags: ['Next.js', 'MDX', 'Algolia'],
+    image: 'https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1600&auto=format&fit=crop',
+    link: '#'
+  },
+  {
+    title: 'Real‑time Chat',
+    description: 'End‑to‑end encrypted chat with presence and typing indicators.',
+    tags: ['WebSockets', 'Node', 'Redis'],
+    image: 'https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=1600&auto=format&fit=crop',
+    link: '#'
+  },
 ]
 
 export default function Projects() {
